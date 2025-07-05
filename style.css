@@ -19,6 +19,14 @@ body{
   padding: 0;
 }
 
+.title {
+  font-size: 3rem;
+  color: #0ff;
+  text-shadow: 0 0 10px rgb(34, 115, 115), 0 0 20px rgb(36, 104, 104);
+  margin-bottom: 40px;
+  animation: fadeIn 1s ease-out;
+}
+
 body {
   background: radial-gradient(circle at center, #111, #000);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
