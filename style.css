@@ -1,0 +1,12 @@
+.btn{
+  height: 50px;
+  width: 70px;
+}
+
+#scoreDisplay{
+  color: aliceblue;
+}
+
+body{
+  background-color: black;
+}
