@@ -84,6 +84,34 @@ body {
   animation: popin 0.7s ease-out;
 }
 
+.result-text {
+  font-size: 1.5rem;
+  margin: 30px 0 20px;
+  padding: 12px 20px;
+  color: #00ffe7;
+  text-align: center;
+  text-shadow: 0 0 6px #00ffe7;
+  background-color: rgba(0, 255, 255, 0.08);
+  border: 1px solid #00ffe7;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #00ffe7;
+  width: fit-content;
+  max-width: 90%;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /* Animations */
 @keyframes pulse {
   0% {

@@ -65,6 +65,9 @@ function playGame() {
 
   console.log(computerMove);
 
+  document.getElementById("resultDisplay").textContent =
+    `You picked: ${playerMove.toUpperCase()} | Computer picked: ${computerMove.toUpperCase()}`;
+
   result = getResult(playerMove, computerMove);
 
   score += result;
