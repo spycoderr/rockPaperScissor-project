@@ -50,7 +50,7 @@ function getResult(move1, move2) {
   if(move1 === move2)
     return 0;
 
-  return moveMatrix[move1][move2];
+  return moveResultMapping[move1][move2];
 }
 
 function playGame() {
